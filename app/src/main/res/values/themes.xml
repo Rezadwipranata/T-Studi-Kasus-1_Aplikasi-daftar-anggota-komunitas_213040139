@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AnimatedSplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/greenDark</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/community_splash</item>
+        <item name="windowSplashScreenAnimationDuration">1500</item>
+        <item name="postSplashScreenTheme">@style/Theme.CommunityApp</item>
+    </style>
+
+    <style name="Theme.CommunityApp" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
